@@ -227,7 +227,7 @@ nav ul li:hover {
 
 /* Showcase  */
 .showcase {
-    background: linear-gradient(rgba(3, 29, 0, 0.75), rgba(0, 56, 7, 0.322)), url(../img/road.jpg);
+    background: linear-gradient(rgba(3, 29, 0, 0.75), rgba(0, 56, 7, 0.322)), url(../img/afternoon.jfif);
     height: 80vh;
     background-position: center center;
     background-size: cover;
@@ -632,10 +632,15 @@ footer * {
 
 .mobile-menu ul li a {
     transition: color 0.6s;
+    transition: 0.3s ease-in-out;
+    padding: 1rem 1.4rem;
+    border-radius: 5px;
 }
 
 .mobile-menu ul li a:hover {
-    font-weight: bold;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+
 }
 
 /* Overlay */
