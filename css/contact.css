@@ -1,0 +1,14 @@
+/* :root {
+    --primary-color: #333;
+} */
+iframe {
+    width: 60%;
+    height: 40vh;
+    min-height:300px;
+    max-height:400px;
+    margin-top: 40px;
+}
+.aside {
+    /* display: none; */
+    background-color: var(--primary-color);
+}
