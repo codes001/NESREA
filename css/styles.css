@@ -36,7 +36,7 @@ ul {
 
 /* Utilities */
 .bold {
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .flex-row {
@@ -157,6 +157,8 @@ nav ul li {
     padding: 2px;
     text-transform: uppercase;
     color: var(--primary-color);
+    z-index: 100;
+    font-weight: bold;
 }
 
 nav ul li:first-child:hover {
@@ -227,7 +229,7 @@ nav ul li:hover {
 
 /* Showcase  */
 .showcase {
-    background: linear-gradient(rgba(3, 29, 0, 0.75), rgba(0, 56, 7, 0.322)), url(../img/afternoon.jfif);
+    background: linear-gradient(rgba(3, 29, 0, 0.75), rgba(0, 56, 7, 0.322)), url(../img/bg1.jpg);
     height: 80vh;
     background-position: center center;
     background-size: cover;
@@ -319,7 +321,7 @@ nav ul li:hover {
 }
 
 .mandate-wrapper {
-    background: linear-gradient(rgba(3, 29, 0, 0.863), rgba(0, 56, 7, 0.668)), url(../img/nature.jpg);
+    background: linear-gradient(rgba(3, 29, 0, 0.863), rgba(0, 56, 7, 0.668)), url(../img/bg2.jpg);
     ;
     position: relative;
     height: 80vh;
