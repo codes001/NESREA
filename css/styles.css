@@ -158,7 +158,7 @@ nav ul li {
     text-transform: uppercase;
     color: var(--primary-color);
     z-index: 100;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 nav ul li:first-child:hover {

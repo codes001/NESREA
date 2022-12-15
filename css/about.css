@@ -1,0 +1,17 @@
+main {
+    position: relative;
+}
+aside {
+    position: sticky;
+    top: 0;
+    right:0;
+    background-color: #f4f4f4;
+    box-shadow: 6px 6px 8px #ccc;
+    width: 350px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+body{
+    height: 4000px;
+}
