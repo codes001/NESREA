@@ -770,6 +770,7 @@ footer * {
     .mandate-inner p,
     .dg-header h2 {
         font-size: 16px;
+        text-align: center;
     }
 
     .mandate-inner .btn {
@@ -802,6 +803,8 @@ footer * {
     .dg-message img {
         width: 220px;
         height: 200px;
+        align-self: center;
+        justify-self:center;
         object-fit: cover;
     }
 
