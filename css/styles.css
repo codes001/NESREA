@@ -461,7 +461,7 @@ nav ul li:hover {
     border-bottom: 1px solid#ccc;
     height: 100%;
     /* margin: 1rem 0; */
-    padding: 1.4rem 0;
+    padding: 1.4rem 20px;
     transition: 0.8s ease-in-out;
 }
 
