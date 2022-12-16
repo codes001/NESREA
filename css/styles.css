@@ -845,6 +845,9 @@ footer * {
     .headline1 {
         margin-bottom: 1.6rem;
     }
+    .partners-img-wrap img {
+        transform: scale(0.6);
+    }
 }
 
 /* Keyframes and Animations */
