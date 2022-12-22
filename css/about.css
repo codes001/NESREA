@@ -119,7 +119,9 @@ aside {
     .article-image, .about-article {
        min-width:100%;
     }
-
+.about-article-inner>h2 {
+    padding: 5px 10%;
+}
     .post_full, .postHeading{
         display:none;
     }
