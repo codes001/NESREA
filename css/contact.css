@@ -76,11 +76,20 @@ input:focus, textarea:focus{
     font-family: 'Open Sans', sans-serif;
     width: 98% !important;
     margin-left: 1rem;
+    cursor: pointer;
 }
 
 @media(max-width:768px){
-    iframe{
-        max-width:600px;
-        margin:auto;
+    form{
+        max-width: 100%;
+        margin:1.5rem 0;
+    }
+
+    .space-on-md{
+        margin-top: 1.8rem;
+    }
+    .location p, .nesrea-offices p, .connect-with-us p{
+        max-width: 100%;
+        text-align: justify;
     }
 }

@@ -137,6 +137,8 @@ aside {
 
     .about-article-inner p {
         padding: 2% 6%;
+        font-weight: bold;
+        font-size: 0.7rem;
     }
 
     .post_full,
