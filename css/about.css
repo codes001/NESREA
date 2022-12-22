@@ -6,11 +6,11 @@ aside {
     position: absolute;
     top: 0;
     right: 20px;
-    background-color: var(--light-green);
-    box-shadow: 2px 2px 3px #ccc, 2px 2px 3px #ccc;
+    background-color: #fff;
+    box-shadow: 2px 2px 3px #ccc, -2px -2px 3px #ccc;
     width: 260px;
     height: auto;
-    padding: 3% 2%;
+    padding: 2% 1%;
     border-radius: 5px;
     z-index: 100;
 }
@@ -46,16 +46,16 @@ aside {
 }
 
 .article-image h3 {
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 0 2% 10px;
+    padding: 0 5% 10px;
     border-bottom: 2px solid #fff;
 }
 
 .main-article p {
-    font-weight: light;
-    font-size: 0.9rem;
+    font-weight: 400;
+    font-size: 0.8rem;
 }
 
 .main-article h2,
@@ -64,5 +64,63 @@ aside {
     margin: 20px 0;
     font-weight: 600;
     font-size: 1.2rem;
-    letter-spacing: 1px;
+    letter-spacing: 1px;    
+}
+
+.about-article-inner>h2, .postHeading {
+    text-align: center;
+    padding: 0 0 5px;
+    font-weight: 800;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #aaa;
+}
+.about-article-inner p {
+    padding: 0.9rem 0.2rem;
+    font-weight: bold;
+    padding-left:0.7rem;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #aaa;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.about-article-inner p:hover, .about-article-inner p:hover .about-article-inner p i {
+    background-color: var(--primary-color);
+    color:#fff;
+}
+.about-article-inner p:hover .fa-arrow-circle-right{
+    color: #fff;
+}
+.about-article-inner .fa-arrow-circle-right{
+    position:absolute;
+    right:20px;
+    top:0;
+    bottom:0;
+    color: #333;
+    padding:10px;
+    align-self:center;
+    transform: translateY(20%);
+
+}
+.about-article-inner p:last-child {
+   margin-bottom: 3rem;
+}
+
+.post_full{
+    padding: 0.5rem 0;
+}
+@media (max-width:960px) {
+    aside{
+        position: static;
+        min-width:100%;
+        margin: 2rem 0 1rem;
+    }
+    .article-image, .about-article {
+       min-width:100%;
+    }
+
+    .post_full, .postHeading{
+        display:none;
+    }
 }
