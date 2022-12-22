@@ -111,7 +111,7 @@ ul {
 /* Nav & Header */
 .main-container {
     display: flex;
-    height: 50px;
+    height: 40px;
     justify-content: space-between;
     padding: 0 30px;
     background: var(--primary-color);
@@ -150,12 +150,13 @@ ul {
 }
 
 header {
-    margin-top: 10px;
-    padding: 0 4%;
+    height: 60px;
+    padding: 2% 3%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    box-shadow: 3px 3px 3px #ccc;
 }
 
 .header-img img {
@@ -665,6 +666,7 @@ footer * {
     transition: color 0.6s;
     transition: 0.3s ease-in-out;
     padding: 1rem 1.4rem;
+    font-weight:600;
     border-radius: 5px;
 }
 
@@ -711,7 +713,6 @@ footer * {
     }
 
     header {
-        box-shadow: 2px 2px 2px #ccc;
         height: 60px;
         background-color: #fff;
         position: sticky;
