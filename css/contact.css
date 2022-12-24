@@ -95,7 +95,9 @@ input:focus, textarea:focus{
         text-align: justify;
     }
     iframe {
-        max-width: 85vw !important;
-        margin: 0 auto;
+      display: none;
+    }
+    .location>h3{
+        margin-top:0;
     }
 }
