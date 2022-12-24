@@ -622,7 +622,8 @@ footer * {
     position: fixed;
     top: 0;
     right: 0;
-    width: 400px;
+    max-width: 400px;
+    width: 350px;
     height: 100%;
     z-index: 4;
     background-color: var(--light-green);
@@ -630,7 +631,7 @@ footer * {
     align-items: center;
     justify-content: center;
     transform: translateX(-2000%);
-    transition: transform 0.8s ease-in-out;
+    transition: transform 0.9s ease-in-out;
 }
 
 .show-menu {
@@ -683,6 +684,7 @@ footer * {
     width: 100%;
     height: 100%;
     background: rgba(9, 34, 2, 0.8);
+    transition: all 0.6s ease-in-out;
     z-index: 2;
 }
 
