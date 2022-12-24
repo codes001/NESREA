@@ -254,7 +254,7 @@ nav ul li.current .dropdown, nav ul li.current .fa-angle-down{
 /* Showcase  */
 .showcase {
     background: linear-gradient(rgba(3, 29, 0, 0.75), rgba(0, 56, 7, 0.322)), url(../img/bg1.jpg);
-    height: 80vh;
+    height: 70vh;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

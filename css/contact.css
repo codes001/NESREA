@@ -94,4 +94,8 @@ input:focus, textarea:focus{
         max-width: 100%;
         text-align: justify;
     }
+    iframe {
+        max-width: 95vw;
+        margin: 0 auto;
+    }
 }
