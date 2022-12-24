@@ -1,0 +1,19 @@
+.publication-main h3 {
+    color: #333;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.flex {
+    font-size: 0.8rem;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+}
+.downloads p a {
+    color: #333;
+}
+
+.downloads i {
+    margin-right: 1rem;
+}

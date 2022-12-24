@@ -106,6 +106,7 @@ ul {
     padding: 10px 15px;
     border-radius: 6px;
     cursor: pointer;
+    font-family: 'Rubik', sans-serif;
 }
 .current:hover{
     border:0;
@@ -182,7 +183,9 @@ nav ul li {
     z-index: 100;
 }
 
-
+nav ul li a {
+    font-weight: 500;
+}
 nav ul li:last-child {
     border: none;
 }
@@ -213,7 +216,7 @@ nav ul li.current .dropdown, nav ul li.current .fa-angle-down{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: var(--secondary-color);
+    background-color: #fcfcfc;
     min-width: 200px;
     width: 100%;
     flex-direction: column;
@@ -585,20 +588,21 @@ footer * {
 .hamburger-middle,
 .hamburger-bottom {
     position: absolute;
-    width: 22px;
+    width: 20px;
     height: 3px;
     top: 0;
     left: 0;
     background: rgba(4, 11, 2, 0.8);
     transition: 0.6s;
+    border-radius: 10px;
 }
 
 .hamburger-middle {
-    transform: translateY(7px);
+    transform: translateY(6px);
 }
 
 .hamburger-bottom {
-    transform: translateY(14px);
+    transform: translateY(12px);
 }
 
 .open {
@@ -631,7 +635,7 @@ footer * {
     align-items: center;
     justify-content: center;
     transform: translateX(-2000%);
-    transition: transform 0.9s ease-in-out;
+    transition: transform 2s ease-in-out;
 }
 
 .show-menu {
@@ -684,7 +688,7 @@ footer * {
     width: 100%;
     height: 100%;
     background: rgba(9, 34, 2, 0.8);
-    transition: all 0.6s ease-in-out;
+    transition: all 0.2s ease-in-out;
     z-index: 2;
 }
 
