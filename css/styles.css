@@ -488,7 +488,6 @@ nav ul li.current .dropdown, nav ul li.current .fa-angle-down{
     background-color: var(--light-green);
     border-bottom: 1px solid#ccc;
     height: 100%;
-    /* margin: 1rem 0; */
     padding: 1.4rem 20px;
     transition: 0.8s ease-in-out;
 }
@@ -751,6 +750,10 @@ footer * {
         border-bottom: 1px solid var(--primary-color);
         margin-bottom: 2rem;
         font-size: 1.5rem;
+    }
+
+    .main-stories-block p{
+        font-size: 0.8rem;
     }
 
     .intro-section,
