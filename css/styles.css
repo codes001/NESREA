@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6,
-input::placeholder {
+input::placeholder, nav ul li a, .dropdown-content li {
     font-family: 'Rubik', sans-serif !important;
 }
 
@@ -107,6 +107,9 @@ ul {
     border-radius: 6px;
     cursor: pointer;
 }
+.current:hover{
+    border:0;
+}
 
 /* Nav & Header */
 .main-container {
@@ -177,12 +180,8 @@ nav ul li {
     text-transform: uppercase;
     color: var(--primary-color);
     z-index: 100;
-    font-weight: bold;
 }
 
-nav ul li:first-child:hover {
-    border-bottom: 0;
-}
 
 nav ul li:last-child {
     border: none;
@@ -225,9 +224,9 @@ nav ul li.current .dropdown, nav ul li.current .fa-angle-down{
     text-align: center;
     z-index: 1000;
     padding-top: 30px;
-    box-shadow: 3px 3px 2px #f4f4f4;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
+    box-shadow: 1px 1px 1px #f4f4f4;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
 
 .dropdown-content li {
@@ -623,15 +622,15 @@ footer * {
     position: fixed;
     top: 0;
     right: 0;
-    width: 300px;
+    width: 400px;
     height: 100%;
     z-index: 4;
     background-color: var(--light-green);
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateX(100%);
-    transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+    transform: translateX(-2000%);
+    transition: transform 0.8s ease-in-out;
 }
 
 .show-menu {
