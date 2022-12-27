@@ -835,17 +835,13 @@ footer * {
 
     .mandate-inner p{
         font-size: 1.1rem;
+        width: 90%;
     }
     .dg-header h2 {
         font-size: 1rem;
         text-align: center;
     }
 
-    .mandate-inner .btn {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, 180%);
-    }
 
     .dg-block {
         max-width: 100%;
