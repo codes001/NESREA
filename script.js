@@ -11,3 +11,10 @@ function navToggle () {
     menu.classList.toggle('show-menu');
 }
 
+jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > 100) {
+        jQuery('.totop').animate({ right: '0px' });
+    } else {
+        jQuery('.totop').animate({ right: '-200%' });
+    }
+    });

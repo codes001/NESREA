@@ -884,7 +884,7 @@ footer * {
         border-radius: 10px;
     }
 .partners-img-wrap{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     padding:0 !important;
     margin: 0;
@@ -892,7 +892,7 @@ footer * {
 }
 
     .partners-img-wrap img {
-        transform: scale(0.6);
+        transform: scale(0.5);
         margin:0 !important;
     }
 }
@@ -918,7 +918,8 @@ footer * {
         animation-delay: 5s;
     }
     100% {
-        background: linear-gradient(rgba(3, 29, 0, 0.75), rgba(0, 56, 7, 0.322)), url(../img/bg3.jpg) no-repeat center center/cover;
+        background: linear-gradient(rgba(3, 29, 0, 0.75), rgba(0, 56, 7, 0.322)), url(../img/garden.jpg) no-repeat center center/cover;
         animation-delay: 5s;
     }
 } 
+
