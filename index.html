@@ -13,6 +13,7 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <title>NESREA | Official website</title>
@@ -98,7 +99,7 @@
 
     <!-- Showcase area -->
     <div class="showcase">
-        <div class="showcase-inner flex-column">
+        <div class="showcase-inner flex-column" data-aos="fade-up"  data-aos-anchor-placement="top-center">
             <p class="text-center bold" style="font-family: 'Rubik', san-serif;">Welcome to NESREA</p>
             <button class="btn"><a href="./about.html">About Us</a></button>
         </div>
@@ -323,6 +324,10 @@
         </div>
     </footer>
 
+
+    <script>
+        AOS.init();
+      </script>
 
     <script src="script.js"></script>
 </body>
