@@ -352,9 +352,9 @@ nav ul li.current .dropdown, nav ul li.current .fa-angle-down{
     ;
     position: relative;
     height: 70vh;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
     display: flex;
 }
 
@@ -423,30 +423,25 @@ nav ul li.current .dropdown, nav ul li.current .fa-angle-down{
 .stories-main-heading {
     margin: 2.5rem 0;
     font-size: 25px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid var(--primary-color);
 }
 
 .headline .btn {
     display: inline-block;
-    width: 150px;
+    width: 130px;
     margin: 0.7rem;
 }
 
 .headline {
     background-color: var(--light-green);
     padding: 0 0 20px;
-
-}
-
-.headline1 {
-    margin-right: 20px;
+    margin:0 10px;
 }
 
 .headline1 p,
 .headline2 p {
     margin-top: 10px;
     padding: 2%;
+    font-size:0.8rem;
 }
 
 .item1 {
@@ -463,7 +458,7 @@ nav ul li.current .dropdown, nav ul li.current .fa-angle-down{
 .item2 h3 {
     background-color: #ffffff;
     border-radius: 4px;
-    box-shadow: inset 2px 2px 4px #ccc, inset -2px -2px 4px #ccc;
+    box-shadow: inset 2px 2px 1px #ccc, inset -2px -2px 1px #ccc;
     width: 100%;
     margin: 1rem 0;
     height: 70px;
@@ -489,13 +484,17 @@ nav ul li.current .dropdown, nav ul li.current .fa-angle-down{
     background-color: var(--light-green);
     border-bottom: 1px solid#ccc;
     height: 100%;
-    padding: 1.4rem 20px;
-    transition: 0.8s ease-in-out;
+    padding: 1.3rem 10px;
+    font-size:0.8rem;
+    transition: 0.5s ease-in-out;
 }
 
 .main-stories-block p:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+}
+.border-0{
+    border-bottom: 0;
 }
 
 /* Partners block */
@@ -878,8 +877,11 @@ footer * {
         flex-direction: column;
     }
 
-    .headline1 {
-        margin-bottom: 1.6rem;
+    .headline {
+        margin:10px 0;
+        width:100%;
+        padding: 0;
+        border-radius: 10px;
     }
 
     .partners-img-wrap img {
