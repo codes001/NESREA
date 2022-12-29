@@ -53,6 +53,10 @@ input, textarea {
 input:focus, textarea:focus{
     outline: 1px solid var(--primary-color);
 }
+
+::placeholder{
+    font-family: 'Open Sans' sans-serif;
+}
 .form-control {
    display:flex;
    align-items: center;
