@@ -122,11 +122,7 @@ aside {
 
 @media (max-width:960px) {
     aside {
-        position: static !important;
-        flex:2;
-        min-width: 100%;
-        margin: 2rem 0 0;
-        box-shadow: none;
+       display:none;
     }
 
     .article-image,
