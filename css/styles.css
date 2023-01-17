@@ -196,6 +196,7 @@ header {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    width:100%;
     z-index: 100;
     background-color: #fff;
     box-shadow: 2px 2px 2px #ccc;
@@ -834,15 +835,6 @@ footer * {
     .main-container,
     header ul {
         display: none !important;
-    }
-
-    header {
-        height: 60px;
-        background-color: #fff;
-        position: sticky;
-        top: 0;
-        z-index: 1;
-        width: 100%;
     }
 
     .header-img {

@@ -5,7 +5,7 @@ main {
 }
 
 aside {
-    position: absolute;
+    /* position: absolute; */
     top: 10px;
     right: 20px;
     background-color: #fff;
@@ -122,7 +122,8 @@ aside {
 
 @media (max-width:960px) {
     aside {
-        position: static;
+        position: static !important;
+        flex:2;
         min-width: 100%;
         margin: 2rem 0 0;
         box-shadow: none;
