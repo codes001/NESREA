@@ -519,9 +519,9 @@ h1.slide-title {
 }
 
 .dg-message {
-    display: flex;
+     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 
 .dg-message p {
@@ -530,8 +530,8 @@ h1.slide-title {
 }
 
 .dg-message img {
-    width: 220px;
-    height: 180px;
+    width: 300px;
+    height: 250px;
     object-fit: cover;
     margin-right: 50px;
     border: 2px solid var(--primary-color);
