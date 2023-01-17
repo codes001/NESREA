@@ -99,6 +99,11 @@ ul {
     border: none;
     font-family: 'Open Sans', sans-serif;
     border-radius: 5px;
+    cursor: pointer;
+}
+.btn-lg{
+    font-size: 1.1rem;
+    padding:10px 20px;
 }
 
 .btn:hover {
@@ -284,34 +289,95 @@ nav ul li.current .fa-angle-down {
     display: block; 
     opacity: 1;
 }
-
-/* Showcase  */
-.showcase {
-    background: linear-gradient(rgba(3, 29, 0, 0.75), rgba(0, 56, 7, 0.322)), url(../img/bg1.jpg);
+/* Showcase */
+.slider-container {
+    width: 100%;
     height: 80vh;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
+    min-height: 400px;
+    max-height: 700px;
     position: relative;
-    animation: changeBg 15s infinite;
-}
-
-.showcase-inner {
-    padding: 2%;
+  }
+  .img-slider {
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+  }
+  .slide {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    clip-path: circle(0% at 0 50%);
+  }
+  .slide.active {
+    clip-path: circle(150% at 50%);
+    transition-property: clip-path;
+  }
+  h1.slide-title {
+    font-size: 45px;
+    max-width:600px;
+    font-weight: 500;
+
+  }
+  #slide-three {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(3, 29, 0, 0.692), rgba(0, 56, 7, 0.562)),
+      url(../img/slide3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  #slide-two {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(3, 29, 0, 0.712), rgba(0, 56, 7, 0.712)),
+      url(../img/slide2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  #slide-one {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(3, 29, 0, 0.712), rgba(0, 56, 7, 0.685)),
+      url(../img/bg1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .slide-content {
+    margin: 50px 100px 20px;
+    padding: 20px 0;
+    color: var(--secondary-color);
+    line-height: 0;
+  }
+  .slide-title {
+    font-size: 50px !important;
+  }
+  .slider-navigation {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    right: 2%;
+    bottom: 5%;
+    transform: translateX(-50%);
 }
 
-.showcase-inner p {
-    margin-bottom: 15px;
-    font-size: 50px;
-    color: #fff;
-    animation: slideLeft 3s 1 forwards;
-    transition: 2s ease;
-    position: relative;
+.slider-btn {
+    background-color: rgba(238, 238, 238, 0.733);
+    width: 10px;
+    height: 10px;
+    margin: 7px;
+    border-radius: 50%;
+    cursor: pointer;
+   
+}
+
+.slider-btn.active {
+    background-color: var(--primary-color);
 }
 
 /* Services and Intro Area */
@@ -771,7 +837,17 @@ footer * {
     .showcase-inner {
         width: 100%;
     }
+    .slide-content {
+        margin: 50px 30px 20px;
+        max-width: 400px;
 
+      }
+      .slide-title {
+        font-size: 38px !important;
+      }
+      .btn-lg {
+        margin-top:1.1rem;
+      }
     .services-section {
         flex-direction: column;
         align-items: center;
@@ -935,5 +1011,3 @@ footer * {
         margin: 0 !important;
     }
 }
-
-
