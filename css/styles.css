@@ -161,7 +161,7 @@ ul {
 
 .box {
     opacity: 0;
-    transition: 1.6s ease-in-out;
+    transition: 1s ease-in-out;
     animation-name: slideUp;
     animation-duration: 1s;
 }
@@ -246,10 +246,12 @@ nav ul li.current .fa-angle-down {
 
 .dropdown-content {
     display: none;
+    opacity:0;
     position: absolute;
     background-color: #fcfcfc;
     min-width: 200px;
     width: 100%;
+    transition: opacity 0.5s;
     flex-direction: column;
     justify-content: center;
     top: 100%;
@@ -279,7 +281,8 @@ nav ul li.current .fa-angle-down {
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: block; 
+    opacity: 1;
 }
 
 /* Showcase  */
