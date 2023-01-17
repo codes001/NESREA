@@ -865,7 +865,9 @@ footer * {
         max-width: 400px;
 
     }
-
+    .services-section {
+       height: auto;
+    }
     .slide-title {
         font-size: 38px !important;
     }
